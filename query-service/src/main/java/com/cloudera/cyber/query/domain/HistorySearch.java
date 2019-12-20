@@ -8,9 +8,8 @@ import javax.jdo.annotations.Embedded;
 import javax.persistence.Entity;
 import javax.persistence.GeneratedValue;
 import javax.persistence.GenerationType;
+import javax.persistence.Id;
 import javax.persistence.OneToOne;
-
-import org.springframework.data.annotation.Id;
 
 import com.cloudera.cyber.Filter;
 import com.cloudera.cyber.QuerySpec;
