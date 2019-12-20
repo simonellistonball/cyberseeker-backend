@@ -4,9 +4,9 @@ import java.time.ZonedDateTime;
 import java.util.List;
 import java.util.UUID;
 
-import com.cloudera.cyber.user.Filter;
-import com.cloudera.cyber.user.QuerySpec;
-import com.cloudera.cyber.user.Sort;
+import com.cloudera.cyber.Filter;
+import com.cloudera.cyber.QuerySpec;
+import com.cloudera.cyber.Sort;
 
 import lombok.Data;
 

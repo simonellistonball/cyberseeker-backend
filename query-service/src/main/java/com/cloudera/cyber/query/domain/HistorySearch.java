@@ -12,9 +12,9 @@ import javax.persistence.OneToOne;
 
 import org.springframework.data.annotation.Id;
 
-import com.cloudera.cyber.user.Filter;
-import com.cloudera.cyber.user.QuerySpec;
-import com.cloudera.cyber.user.Sort;
+import com.cloudera.cyber.Filter;
+import com.cloudera.cyber.QuerySpec;
+import com.cloudera.cyber.Sort;
 
 import lombok.Builder;
 import lombok.Data;

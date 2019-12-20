@@ -1,7 +1,7 @@
 package com.cloudera.cyber.query;
 
+import com.cloudera.cyber.QuerySpec;
 import com.cloudera.cyber.query.domain.ResultSet;
-import com.cloudera.cyber.user.QuerySpec;
 
 import reactor.core.publisher.Mono;
 

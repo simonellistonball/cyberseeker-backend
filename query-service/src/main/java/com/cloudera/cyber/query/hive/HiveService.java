@@ -18,13 +18,13 @@ import org.springframework.beans.factory.annotation.Value;
 import org.springframework.stereotype.Service;
 
 import com.cloudera.cyber.ColumnService;
+import com.cloudera.cyber.ColumnType;
+import com.cloudera.cyber.QuerySpec;
 import com.cloudera.cyber.query.QueryService;
 import com.cloudera.cyber.query.domain.ColumnDTO;
 import com.cloudera.cyber.query.domain.ResultSet;
 import com.cloudera.cyber.query.domain.ResultSet.ResultSetBuilder;
 import com.cloudera.cyber.query.domain.Row;
-import com.cloudera.cyber.user.ColumnType;
-import com.cloudera.cyber.user.QuerySpec;
 
 import reactor.core.publisher.Mono;
 

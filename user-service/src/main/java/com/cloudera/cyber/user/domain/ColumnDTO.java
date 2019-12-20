@@ -8,8 +8,8 @@ import javax.persistence.GenerationType;
 import javax.persistence.Id;
 import javax.persistence.Table;
 
-import com.cloudera.cyber.user.Column;
-import com.cloudera.cyber.user.ColumnType;
+import com.cloudera.cyber.Column;
+import com.cloudera.cyber.ColumnType;
 
 import lombok.Data;
 

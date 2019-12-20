@@ -1,4 +1,4 @@
-package com.cloudera.cyber.user;
+package com.cloudera.cyber;
 
 public enum ColumnType {
 	STRING, NUMBER, DATA

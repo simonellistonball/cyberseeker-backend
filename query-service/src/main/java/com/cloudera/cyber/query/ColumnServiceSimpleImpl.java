@@ -5,10 +5,10 @@ import java.util.List;
 
 import org.springframework.stereotype.Service;
 
+import com.cloudera.cyber.Column;
 import com.cloudera.cyber.ColumnService;
+import com.cloudera.cyber.ColumnType;
 import com.cloudera.cyber.query.domain.ColumnDTO;
-import com.cloudera.cyber.user.Column;
-import com.cloudera.cyber.user.ColumnType;
 
 @Service
 public class ColumnServiceSimpleImpl implements ColumnService {

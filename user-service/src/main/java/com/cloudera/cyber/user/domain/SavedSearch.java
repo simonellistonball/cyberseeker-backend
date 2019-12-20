@@ -11,7 +11,7 @@ import javax.persistence.GenerationType;
 import javax.persistence.Id;
 import javax.persistence.ManyToMany;
 
-import com.cloudera.cyber.user.QuerySpec;
+import com.cloudera.cyber.QuerySpec;
 
 import lombok.Data;
 

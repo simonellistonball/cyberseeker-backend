@@ -2,8 +2,6 @@ package com.cloudera.cyber;
 
 import java.util.List;
 
-import com.cloudera.cyber.user.Column;
-
 public interface ColumnService {
 	public default String getLabel(String columnName) {
 		return findColumn(columnName).getLabel();

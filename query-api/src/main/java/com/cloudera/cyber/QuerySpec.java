@@ -1,4 +1,4 @@
-package com.cloudera.cyber.user;
+package com.cloudera.cyber;
 
 import java.time.ZonedDateTime;
 import java.util.List;

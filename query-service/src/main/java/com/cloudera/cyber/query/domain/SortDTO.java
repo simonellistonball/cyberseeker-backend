@@ -2,8 +2,8 @@ package com.cloudera.cyber.query.domain;
 
 import javax.persistence.Embeddable;
 
-import com.cloudera.cyber.user.Sort;
-import com.cloudera.cyber.user.SortDirection;
+import com.cloudera.cyber.Sort;
+import com.cloudera.cyber.SortDirection;
 
 import lombok.Data;
 

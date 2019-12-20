@@ -8,10 +8,10 @@ import java.util.stream.Collectors;
 import org.apache.calcite.sql.parser.SqlParseException;
 
 import com.cloudera.cyber.ColumnService;
+import com.cloudera.cyber.Filter;
+import com.cloudera.cyber.QuerySpec;
+import com.cloudera.cyber.SortDirection;
 import com.cloudera.cyber.query.QueryExpansion;
-import com.cloudera.cyber.user.Filter;
-import com.cloudera.cyber.user.QuerySpec;
-import com.cloudera.cyber.user.SortDirection;
 
 public class SimpleHQL {
 

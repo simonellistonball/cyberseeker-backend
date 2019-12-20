@@ -5,8 +5,8 @@ import java.util.List;
 import javax.persistence.Embeddable;
 import javax.persistence.Embedded;
 
-import com.cloudera.cyber.user.Filter;
-import com.cloudera.cyber.user.FilterDirection;
+import com.cloudera.cyber.Filter;
+import com.cloudera.cyber.FilterDirection;
 
 import lombok.Data;
 

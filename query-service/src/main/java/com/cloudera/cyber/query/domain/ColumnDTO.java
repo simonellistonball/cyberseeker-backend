@@ -1,7 +1,7 @@
 package com.cloudera.cyber.query.domain;
 
-import com.cloudera.cyber.user.Column;
-import com.cloudera.cyber.user.ColumnType;
+import com.cloudera.cyber.Column;
+import com.cloudera.cyber.ColumnType;
 
 import lombok.Builder;
 import lombok.Data;
