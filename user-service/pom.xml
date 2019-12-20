@@ -12,7 +12,7 @@
 	<groupId>com.cloudera.cyber</groupId>
 	<artifactId>user-service</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
-	<name>demo</name>
+	<name>user-service</name>
 	<description>User Settings Service</description>
 
 	<properties>

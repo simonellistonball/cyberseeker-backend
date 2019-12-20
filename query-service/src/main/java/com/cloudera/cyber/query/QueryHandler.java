@@ -28,22 +28,20 @@ public class QueryHandler {
 
 	public Mono<ServerResponse> search(ServerRequest request) {
 		Mono<Object> results = request.bodyToMono(SearchRequest.class).map(historyEntity()).map(q -> {
-			return hiveService.query(q)
-					.map(rs -> {
-						repository.setCompletedAt(ZonedDateTime.now(), q.getId());
-						return rs;
-					})
-					.map(rs -> {
-						// @formatter:off
+			return hiveService.query(q).map(rs -> {
+				repository.setCompletedAt(ZonedDateTime.now(), q.getId());
+				return rs;
+			}).map(rs -> {
+				// @formatter:off
 						return SearchResponse.builder()
 								.historyId(q.getId())
 								.data(rs.getRows())
 								.columns(rs.getColumns())
 								.build();
 						// @formatter:on
-					}).cast(SearchResponse.class);
+			}).cast(SearchResponse.class);
 		});
-		
+
 		// log the request, get an ID for it and send this back with the results
 
 		return ServerResponse.ok().contentType(MediaType.APPLICATION_JSON).bodyValue(results)

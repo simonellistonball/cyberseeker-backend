@@ -13,6 +13,7 @@ import java.util.stream.IntStream;
 import java.util.stream.Stream;
 
 import org.apache.calcite.sql.parser.SqlParseException;
+import org.junit.jupiter.api.Disabled;
 import org.junit.jupiter.api.Test;
 import org.springframework.test.util.ReflectionTestUtils;
 
@@ -73,6 +74,7 @@ public class TestQueryExpansion {
 	}
 
 	@Test
+	@Disabled("Not yet implmented properly")
 	void testWithAFunctionOnFieldWithComparison() throws SqlParseException {
 		List<String> columns = makeColumns(2);
 		assertThat(expand("UDF_FUNC(test_*)='test'", columns),
