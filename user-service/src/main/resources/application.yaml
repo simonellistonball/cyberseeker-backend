@@ -1,0 +1,21 @@
+
+logging:
+  level:
+    org.springframework.security: DEBUG
+    
+spring:
+  jpa:
+    generate-ddl: true
+    database: h2
+
+server:
+  port: 8081
+  
+springdoc:
+  api-docs:
+    path: /api
+    
+  swagger-ui:
+    path: /swagger-ui.html
+  
+  packagesToScan: com.cloudera.cyber.query
